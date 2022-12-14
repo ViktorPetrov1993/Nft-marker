@@ -1,0 +1,78 @@
+.button{
+    border: 2px solid #262840;
+    border-radius: 12px;
+    padding: 16px 24px;
+}
+.buttonblue{
+    color: #7780A1;
+    background: #060714;
+}
+.buttongray{
+    color: #7780A1;
+    background: #060714
+}
+.buttonblue:hover , .buttongray:hover{
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    border: 2px solid #4745D0;
+    color: #FFFFFF;
+}
+.topbar , .topbar_links{
+    text-decoration: none;
+    color: #7780A1;
+    padding-right: 64px;
+}
+.topbar , .topbar_links:last-child{
+    padding-right: 0;
+}
+.searchbar , .bottom_searchbar , select{
+    color: #262840;
+    width: 100%;
+    height: 100%;
+}
+.items{
+    background:  rgba(81, 76, 255, 0.15);;
+    padding: 8px 8px;
+    border-radius: 4px;
+}
+.longbuttonblue{
+    background: #060714;
+    color: #7780A1;
+}
+.longbuttonblue:hover{
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    border: 2px solid #4745D0;
+    color: #FFFFFF;
+}
+.longbutton{
+    border: 2px solid #262840;
+    border-radius: 12px;
+    padding: 16px 122px;
+    margin: 0 16px;
+}
+.lastmenu_links{
+    text-decoration: none;
+    padding-right: 25px;
+}
+.lastmenu_links:last-child{
+    padding-right: 0;
+}
+.button_lastmenu{
+    border: 2px solid #262840;
+    border-radius: 12px;
+    padding: 16px 24px;
+    color: #FFFFFF;
+}
+.bottommenu_checkboxsmenu_label{
+    border: 2px solid #262840;
+    border-radius: 12px;
+    padding: 16px 24px;
+    color: #7780A1;
+}
+input:checked + .bottommenu_checkboxsmenu_label{
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    border: 2px solid #4745D0;
+    color: #FFFFFF;
+}
+.bottommenu_checkboxsmenu_box{
+    display: none;
+}

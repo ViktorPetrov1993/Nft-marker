@@ -1,0 +1,29 @@
+{
+  "name": "test_work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass test.scss test.css",
+    "server": "http-server",
+    "watch": "npm-watch",
+    "scss": "sass ./scss:./css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "http-server": "^14.1.1",
+    "npm-watch": "^0.11.0",
+    "sass": "^1.56.1"
+  },
+  "watch": {
+    "scss": {
+      "patterns": [
+        "scss"
+      ],
+      "extensions": "scss"
+    }
+  }
+}
